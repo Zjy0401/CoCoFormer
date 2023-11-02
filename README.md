@@ -41,8 +41,8 @@ python generate.py
 ```
 
 ### Demo
-Under Construction
+Under Construction  
 
 ## Contributing
-Thanks for gwinndr, we start our research with [MusicTransformer](https://github.com/gwinndr/MusicTransformer-Pytorch)
+Thanks for gwinndr, we start our research with [MusicTransformer](https://github.com/gwinndr/MusicTransformer-Pytorch)  
 Thanks for [Tengfei Niu](https://github.com/fleetingtime1), he implemented some of these functions and network building.
