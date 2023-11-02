@@ -32,10 +32,17 @@ python train_jsf.py --rpr
 ```
 
 Generate polyphonic music:
-Conditional generate: input a melody, beat and chord, CoCoFormer will create music as specific token.
+Conditional generate: input a melody, beat and chord, CoCoFormer will create music according to the specific token.
+unconditional generate: create a polyphonic music with no specific token.
 
-### 
+As the code shown, we give an example of beat and chord with a specific melody, you can use different function to chose generate ways. 
+```
+python generate.py
+```
 
+### Demo
+Under Construction
 
 ## Contributing
 Thanks for gwinndr, we start our research with [MusicTransformer](https://github.com/gwinndr/MusicTransformer-Pytorch)
+Thanks for [Tengfei Niu](https://github.com/fleetingtime1), he implemented some of these functions and network building.
