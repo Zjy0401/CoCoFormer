@@ -28,7 +28,7 @@ python preprocess_jsf.py
 
 Train the model:
 ```
-python train_jsf.py --rpr 
+python train_jsf.py --rpr --gpu 0
 ```
 
 Generate polyphonic music:
@@ -39,6 +39,7 @@ As the code shown, we give an example of beat and chord with a specific melody, 
 ```
 python generate.py
 ```
+If you want to modify the parameters, visit the argument_funcs.py
 
 ### Demo
 Under Construction  
