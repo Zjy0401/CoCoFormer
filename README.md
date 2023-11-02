@@ -6,7 +6,7 @@ For more details, see our paper: [CoCoFormer](https://arxiv.org/abs/2310.09843)
 Polyphonic music is a unique form of music with different melodies. However, the same melody often has the same musical texture. We don't have different musical textures for one song to choose from. Therefore, we want to use a music AI model to help us compose polyphonic music. If we have a model, we can specify a melody and a texture and the model can generate a unique polyphonic music. The CoCoFormer is aimed at this.
 
 ## Install Dependencies
-python 3.7.13  
+python 3.7.13 
 pytorch 1.8.1+cu101  
 mido 1.2.10  
 tqdm 4.64.0  
