@@ -37,7 +37,7 @@ unconditional generate: create a polyphonic music with no specific token.
 
 As the code shown, we give an example of beat and chord with a specific melody, you can use different function to chose generate ways. 
 ```
-python generate.py
+python generate.py --rpr
 ```
 If you want to modify the parameters, visit the argument_funcs.py
 
